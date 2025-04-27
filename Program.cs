@@ -1,7 +1,7 @@
 ﻿
 // --------------------------- 1 -------------------------------------
 
-int funStatus(int num1, int num2)
+int customCalculation(int num1, int num2)
 {
     if (num1 == num2)
     {
@@ -20,6 +20,8 @@ int funStatus(int num1, int num2)
     return 0;
 }
 
-int result = funStatus(100, 100);
+//int result = customCalculation(100, 100);
+//int result = customCalculation(100, 100);
+int result = customCalculation(300, 100);
 
 Console.WriteLine(result);
